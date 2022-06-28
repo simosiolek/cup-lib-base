@@ -1,24 +1,25 @@
 <script setup>
-  import cupButton  from './components/Button/cupButton.vue';
+  import cupButton  from './components/Button/Button.vue';
+  import cupBadge  from './components/Badge/Badge.vue';
 </script>
 
 <template>
-    <cupButton
+  <cupButton
     label="My Button"
-  />
+  />&nbsp;
   <cupButton
     label="Click CTA"
     cta
   />
+  <br /><br />
+  <cupBadge
+    label="Popular"
+  />&nbsp;
+  <cupBadge
+    label="New"
+    highlighted
+  />
 </template>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<!-- <style>
+@import "assets/style.scss";
+</style> -->
