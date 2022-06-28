@@ -1,0 +1,21 @@
+:root {
+  --color-brand: dodgerblue;
+  --color-brand-dark: midnightblue;
+  --color-cta: chocolate;
+  --color-cta-dark: brown;
+  --color-grey: SlateGray;
+  --color-grey-light:LightSteelBlue;
+  --color-grey-dark:  #2e4053;
+
+  --text-color: #161616;
+  --text-inverse: #ffffff;
+
+  --button-bg: var(--color-brand);
+  --button-bg-hover: var(--color-brand-dark);
+  --button-cta-bg: var(--color-cta);
+  --button-cta-bg-hover: var(--color-cta-dark);
+
+  --badge-bg: var(--color-grey-dark);
+  --badge-color: var(--text-inverse);
+  --badge-highlighted-bg: var(--color-cta-dark);
+}
