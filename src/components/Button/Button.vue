@@ -24,19 +24,16 @@ const classes = computed(() => ({
 </script>
 
 <style lang="scss">
-@import "../../assets/variables.css";
-
 .btn {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
-  border-radius: 3em;
+  border-radius: 0.5em;
   background-color: var(--button-bg);
   color: white;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
-  padding: 0.5rem 0.75rem;
+  padding: 0.75rem 1rem;
   transition: all linear 0.15s;
 
   &:hover {
