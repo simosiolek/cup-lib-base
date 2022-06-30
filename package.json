@@ -1,6 +1,6 @@
 {
   "name": "cup-lib-base",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "files": ["dist"],
   "main": "./dist/cup-lib-base.umd.js",
   "module": "./dist/cup-lib-base.es.js",
