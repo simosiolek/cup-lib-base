@@ -15,7 +15,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/components/index.js'),
       name: 'CupLibPoc',
-      fileName: (format) => `cup-lib-poc.${format}.js`,
+      fileName: (format) => `cup-lib-base.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],
