@@ -1,5 +1,6 @@
 {
   "name": "cup-lib-base",
+  "version": "0.0.5",
   "files": ["dist"],
   "main": "./dist/cup-lib-base.umd.js",
   "module": "./dist/cup-lib-base.es.js",
@@ -9,7 +10,6 @@
       "require": "./dist/cup-lib-base.umd.js"
     }
   },
-  "version": "0.0.2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
