@@ -1,5 +1,6 @@
 const path = require('path');
-import { defineConfig } from 'vite'
+// import { defineConfig } from 'vite'
+const { defineConfig } = require('vite');
 import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
@@ -14,7 +15,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/components/index.js'),
-      name: 'CupLibPoc',
+      name: 'CupLibBase',
       fileName: (format) => `cup-lib-base.${format}.js`,
     },
     rollupOptions: {
