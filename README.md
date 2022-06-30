@@ -1,9 +1,11 @@
-# Vue 3 + Vite
+# Vue 3 + Vite Test Base Library
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Test for Vue3 + Vite + Storybook library
+
+<!-- This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
-https://levelup.gitconnected.com/using-vite-to-publish-a-vue-component-to-npm-7043a56cfa00
+https://levelup.gitconnected.com/using-vite-to-publish-a-vue-component-to-npm-7043a56cfa00 -->
